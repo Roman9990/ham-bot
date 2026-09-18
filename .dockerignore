@@ -1,0 +1,9 @@
+.env
+__pycache__/
+*.pyc
+*.log
+voice_tmp/
+stt_tmp/
+.git/
+.venv/
+venv/

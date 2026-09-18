@@ -1,0 +1,157 @@
+MEME_CATALOG = """
+ЗВУКОВЫЕ МЕМЫ — метка [sfx: id] в самом конце ответа:
+(звук уйдёт голосовым сообщением)
+- laugh_evil: Evil Laugh sound
+- applause: Applause sound
+- trombone: Sad Trombone sound
+- bruh: BRUH sound
+- airhorn: DJ Airhorn sound
+- dramatic: Dramatic Chipmunk sound
+- rimshot: Rimshot sound
+- fart: Fart sound
+- boo: crowd booing sound
+- laugh_track: Laugh Track sound
+- boom: VINE BOOM SOUND sound
+- mission_failed: Mission Failed sound
+- womp: Womp Womp Womp sound
+- scream: Leave me alone! | (Take #2) sound
+- gulp: Engolir seco Tom e Jerry Gulp sound
+- scratch: wut sound
+- punch: Punch Sound sound
+- explosion: FBI OPEN UP (with explosion) sound
+- crickets: Crickets sound
+- clown: Clown Horn sound
+- win_error: Windows XP Error sound
+- pipe: jixaw metal pipe falling sound sound
+- hello_there: Hello there- obi Wan sound
+- shame: Shame Bell sound
+- tbc: To be Continued (jojo) sound
+- beep: Censored beep sound
+- coffin: Coffin Dance Meme sound
+- disgusting: Sponge Bob Disgusting sound
+- amogus: Among Us role reveal sound sound
+
+ФОТО-МЕМЫ — метка [img: id] в самом конце ответа:
+(картинка уйдёт следующим сообщением)
+- drake: Дрейк: отказ и одобрение выбора.
+- boyfriend: Парень между двумя девушками. При выборе.
+- buttons: Сложный выбор, когда оба варианта плохи.
+- changemind: Спорный тезис, призыв к дискуссии.
+- exit: Машина едет не туда. При ошибке.
+- womancat: Кричащая женщина и кот. При споре.
+- badluck: Смешное фото школьника; при иронии.
+- onedoesnot: Боромир, когда разница совсем небольшая.
+- aliens: Растерянный мужчина; когда всё непонятно.
+- spongebob: Спанч Боб в шоке. При недоумении.
+- rollsafe: Умный вид; когда ты гений.
+- pikachu: Шокированный Пикачу; при неожиданном исходе.
+- thisisfine: Пёс в огне. При полном хаосе.
+- brain: Развитие мозга; для ироничного сравнения идей.
+- harold: Дед с ноутбуком. Для одобрения.
+- batman: Бэтмен бьет пощечиной. Для жесткого отпора.
+- trade: Невыгодный обмен, когда предлагаешь ерунду.
+- gru: Грю с доской. Для презентации идей.
+- panik: Мем «Паника-Спокойствие». Для резких смен эмоций.
+- doge: Мышцы против слабости, для сравнения.
+- fry: Подозрительный Фрай; при недоверии или скепсисе.
+- drake_hotline_bling: Drake Hotline Bling
+- two_buttons: Two Buttons
+- distracted_boyfriend: Distracted Boyfriend
+- bernie_i_am_once_again_asking_for_your_s: Bernie I Am Once Again Asking For Your Support
+- uno_draw_25_cards: UNO Draw 25 Cards
+- left_exit_12_off_ramp: Left Exit 12 Off Ramp
+- always_has_been: Always Has Been
+- anakin_padme_4_panel: Anakin Padme 4 Panel
+- epic_handshake: Epic Handshake
+- gru_s_plan: Gru's Plan
+- running_away_balloon: Running Away Balloon
+- waiting_skeleton: Waiting Skeleton
+- sad_pablo_escobar: Sad Pablo Escobar
+- disaster_girl: Disaster Girl
+- change_my_mind: Change My Mind
+- trade_offer: Trade Offer
+- y_all_got_any_more_of_that: Y'all Got Any More Of That
+- batman_slapping_robin: Batman Slapping Robin
+- x_x_everywhere: X, X Everywhere
+- ancient_aliens: Ancient Aliens
+- bernie_sanders_once_again_asking: Bernie Sanders Once Again Asking
+- marked_safe_from: Marked Safe From
+- mocking_spongebob: Mocking Spongebob
+- bike_fall: Bike Fall
+- one_does_not_simply: One Does Not Simply
+- woman_yelling_at_cat: Woman Yelling At Cat
+- is_this_a_pigeon: Is This A Pigeon
+- absolute_cinema: Absolute Cinema
+- you_guys_are_getting_paid: You Guys are Getting Paid
+- 0_days_without_lenny_simpsons: 0 days without (Lenny, Simpsons)
+- they_re_the_same_picture: They're The Same Picture
+- mother_ignoring_kid_drowning_in_a_pool: Mother Ignoring Kid Drowning In A Pool
+- expanding_brain: Expanding Brain
+- this_is_where_i_d_put_my_trophy_if_i_had: This Is Where I'd Put My Trophy If I Had One
+- buff_doge_vs_cheems: Buff Doge vs. Cheems
+- oprah_you_get_a: Oprah You Get A
+- tuxedo_winnie_the_pooh: Tuxedo Winnie The Pooh
+- squidward_window: Squidward window
+- megamind_peeking: Megamind peeking
+- this_is_fine: This Is Fine
+- pawn_stars_best_i_can_do: Pawn Stars Best I Can Do
+- george_bush_9_11: George Bush 9/11
+- bell_curve: Bell Curve
+- i_bet_he_s_thinking_about_other_women: I Bet He's Thinking About Other Women
+- monkey_puppet: Monkey Puppet
+- where_monkey: where monkey
+- soldier_protecting_sleeping_child: Soldier protecting sleeping child
+- clown_applying_makeup: Clown Applying Makeup
+- roll_safe_think_about_it: Roll Safe Think About It
+- friendship_ended: Friendship ended
+- spider_man_triple: Spider Man Triple
+- two_guys_on_a_bus: Two guys on a bus
+- imagination_spongebob: Imagination Spongebob
+- they_don_t_know: They don't know
+- boardroom_meeting_suggestion: Boardroom Meeting Suggestion
+- hide_the_pain_harold: Hide the Pain Harold
+- types_of_headaches_meme: Types of Headaches meme
+- flex_tape: Flex Tape
+- all_my_homies_hate: All My Homies Hate
+- you_know_i_m_something_of_a_scientist_my: You know, I'm something of a scientist myself
+- inhaling_seagull: Inhaling Seagull
+- sleeping_shaq: Sleeping Shaq
+- a_train_hitting_a_school_bus: A train hitting a school bus
+- anime_girl_hiding_from_terminator: Anime Girl Hiding from Terminator
+- evil_kermit: Evil Kermit
+- scooby_doo_mask_reveal: Scooby doo mask reveal
+- panik_kalm_panik: Panik Kalm Panik
+- grandma_finds_the_internet: Grandma Finds The Internet
+- three_headed_dragon: Three-headed Dragon
+- megamind_no_bitches: Megamind no bitches
+- aj_styles_undertaker: AJ Styles & Undertaker
+- grant_gustin_over_grave: Grant Gustin over grave
+- laughing_leo: Laughing Leo
+- no_yes: No - Yes
+- spiderman_pointing_at_spiderman: spiderman pointing at spiderman
+- surprised_pikachu: Surprised Pikachu
+- domino_effect: Domino Effect
+- whisper_and_goosebumps: Whisper and Goosebumps
+- blank_nut_button: Blank Nut Button
+- is_this_butterfly: is this butterfly
+- star_wars_yoda: Star Wars Yoda
+- futurama_fry: Futurama Fry
+- third_world_skeptical_kid: Third World Skeptical Kid
+- two_paths: Two Paths
+- who_killed_hannibal: Who Killed Hannibal
+- say_the_line_bart_simpsons: say the line bart! simpsons
+- grim_reaper_knocking_door: Grim Reaper Knocking Door
+- i_m_the_captain_now: I'm The Captain Now
+- charlie_conspiracy_always_sunny_in_phili: Charlie Conspiracy (Always Sunny in Philidelphia)
+- american_chopper_argument: American Chopper Argument
+- drake_blank: Drake Blank
+- bad_luck_brian: Bad Luck Brian
+- whe_i_m_in_a_competition_and_my_opponent: whe i'm in a competition and my opponent is
+- look_at_me: Look At Me
+- c_mon_do_something: c'mon do something
+- the_scroll_of_truth: The Scroll Of Truth
+- leonardo_dicaprio_cheers: Leonardo Dicaprio Cheers
+- yo_dawg_heard_you: Yo Dawg Heard You
+- gus_fring_we_are_not_the_same: Gus Fring we are not the same
+- trump_bill_signing: Trump Bill Signing
+"""

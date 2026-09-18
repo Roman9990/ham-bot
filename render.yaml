@@ -1,0 +1,37 @@
+# Blueprint для деплоя Васи на Render одной кнопкой.
+# Локально бот ходит в Ollama на localhost, на Render — в прямой Cloud API.
+services:
+  - type: worker
+    name: vasya-ham-bot
+    runtime: docker
+    dockerfilePath: ./Dockerfile
+    plan: starter
+    region: frankfurt
+    autoDeploy: true
+    envVars:
+      - key: BOT_TOKEN
+        sync: false
+      - key: OLLAMA_URL
+        value: https://ollama.com
+      - key: OLLAMA_API_KEY
+        sync: false
+      - key: OLLAMA_MODEL
+        value: gemma4:31b-cloud
+      - key: OLLAMA_TIMEOUT
+        value: "90"
+      - key: OLLAMA_TEMP
+        value: "0.85"
+      - key: HAM_MODE
+        value: max
+      - key: TRIGGER_CHANCE
+        value: "1.0"
+      - key: PROACTIVE_ENABLED
+        value: "true"
+      - key: PROACTIVE_INTERVAL_MIN
+        value: "15"
+      - key: PROACTIVE_CHANCE
+        value: "1.0"
+      - key: MEMORY_LEN
+        value: "200"
+      - key: USE_CLOUD
+        value: "false"
