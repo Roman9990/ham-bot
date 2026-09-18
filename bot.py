@@ -79,7 +79,28 @@ async def main():
         BotCommand(command="status", description="⚙️ статус"),
     ])
 
+    async def _health_server():
+        # Render web service требует слушать $PORT, иначе деплой не проходит
+        import os
+        from aiohttp import web
+
+        async def _ok(_request):
+            return web.Response(text="vasya zhiv")
+
+        try:
+            app = web.Application()
+            app.router.add_get("/", _ok)
+            app.router.add_get("/healthz", _ok)
+            runner = web.AppRunner(app)
+            await runner.setup()
+            port = int(os.getenv("PORT", "10000"))
+            await web.TCPSite(runner, "0.0.0.0", port).start()
+            log.info("health endpoint слушает порт %s", port)
+        except Exception as e:
+            log.warning("health endpoint не стартовал: %s", e)
+
     asyncio.create_task(proactive_loop(bot))
+    asyncio.create_task(_health_server())
 
     log.info(f"Вася запущен! Модель {config.OLLAMA_MODEL}, режим {config.HAM_MODE}. Ctrl+C для остановки.")
     await dp.start_polling(bot)
