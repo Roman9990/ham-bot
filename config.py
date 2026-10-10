@@ -21,8 +21,9 @@ if HAM_MODE not in ("light", "zhest", "max"):
 # В группах отвечать ВСЕГДА (1.0) — бот постоянно агро
 TRIGGER_CHANCE: float = float(os.getenv("TRIGGER_CHANCE", "1.0"))
 
-# Проактив: бот сам пишет если чат молчит (по умолчанию ВЫКЛ - спалил)
-PROACTIVE_ENABLED: bool = os.getenv("PROACTIVE_ENABLED", "false").lower() in ("1", "true", "yes", "on")
+# Проактив (бот сам пишет в тишину) — ВЫКЛЮЧЕН НАВСЕГДА, спамил.
+# Захочешь вернуть: False -> True и задеплой.
+PROACTIVE_ENABLED: bool = False
 PROACTIVE_INTERVAL_MIN: int = int(os.getenv("PROACTIVE_INTERVAL_MIN", "15"))
 PROACTIVE_CHANCE: float = float(os.getenv("PROACTIVE_CHANCE", "1.0"))
 
